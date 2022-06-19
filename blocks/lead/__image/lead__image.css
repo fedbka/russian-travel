@@ -1,0 +1,11 @@
+.lead__image {
+  margin: 0 auto;
+  padding: 56px 0 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__image {
+    padding: calc(40px + ((100vw - 320px) * 0.0357941834451902)) 0 0;
+  }
+}
