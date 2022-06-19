@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 767px) {
   .header__link {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: calc(18px + ((100vw - 320px) * (24 - 18) / (767 - 320)));
+    line-height: calc(20px + ((100vw - 320px) * (28 - 20) / (767 - 320)));
   }
 }
