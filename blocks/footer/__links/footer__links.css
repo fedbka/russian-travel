@@ -7,11 +7,13 @@
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 19px;
+  column-gap: 19px;
+  row-gap: 19px;
 }
 
 @media screen and (max-width: 767px) {
   .footer__links {
-    gap: calc(32px - ((100vw - 320px) * (32 - 19) / (767 - 320)));
+    column-gap: calc(160px - ((100vw - 320px) * (160 - 19) / (767 - 320)));
+    row-gap: 32px;
   }
 }

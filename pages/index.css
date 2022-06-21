@@ -42,6 +42,7 @@
 /* .places,
 .intro,
 .lead,
+.photo-grid,
 .place,
 .place__title,
 .place__website,
@@ -49,8 +50,8 @@
 .place__paragraphs,
 .cover {
   display: none;
-} */
-
+}
+ */
 /* .header,
 .footer {
   outline: auto;
