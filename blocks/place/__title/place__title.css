@@ -1,11 +1,14 @@
 .place__title {
-  margin: 0;
-  padding: 0;
-  max-width: 460px;
-  min-height: 152px;
+  align-self: start;
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
+  justify-self: start;
   line-height: 76px;
+  margin: 0;
+  max-width: 460px;
+  padding: 0;
   text-align: left;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }

@@ -1,4 +1,4 @@
-@import url("../vendor/normalize.css");
+/* @import url("../vendor/normalize.css"); */
 @import url("../vendor/fonts/fonts.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
@@ -31,10 +31,27 @@
 @import url("../blocks/place/__image/place__image.css");
 @import url("../blocks/place/__paragraphs/place__paragraphs.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
-
-.places,
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__title/cover__title.css");
+@import url("../blocks/cover/__subtitle/cover__subtitle.css");
+@import url("../blocks/cover/__link/cover__link.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__links/footer__links.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
+/* .places,
 .intro,
 .lead,
-.header {
+.place,
+.place__title,
+.place__website,
+.place__image,
+.place__paragraphs,
+.cover {
+  display: none;
+} */
+
+/* .header,
+.footer {
   outline: auto;
-}
+} */

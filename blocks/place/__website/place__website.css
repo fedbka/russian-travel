@@ -2,5 +2,11 @@
   margin: 0;
   padding: 0;
   max-width: 456px;
-  min-height: 46px;
+  align-self: end;
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 13px;
+  border-bottom: 1px solid white;
 }

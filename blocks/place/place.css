@@ -1,9 +1,13 @@
 .place {
   margin: 0;
   padding: 0;
+  max-width: 984px;
   width: 100%;
-  /* display: grid;
+  display: grid;
+  row-gap: 48px;
+  column-gap: 40px;
+  line-height: 0;
   grid-template-areas:
     "heading url"
-    "image paragraphs"; */
+    "image paragraphs";
 }
