@@ -5,7 +5,6 @@
   line-height: 36px;
   margin: 0 auto;
   max-width: 640px;
-  min-height: 72px;
   padding: 32px 0 0;
   text-align: center;
 }
@@ -14,7 +13,6 @@
   .lead__subtitle {
     font-size: calc(100vw / 20);
     line-height: calc((100vw / 20) + 4px);
-    min-height: 40px;
     padding: calc(100vw / 20) 0 0;
     width: 90%;
   }
