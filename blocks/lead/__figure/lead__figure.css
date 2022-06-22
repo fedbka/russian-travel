@@ -1,0 +1,25 @@
+.lead__figure {
+  line-height: 0;
+  margin: 0 auto;
+  padding: 0;
+  padding: 64px 0 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__figure {
+    padding: calc(56px + ((100vw - 1024px) * (64 - 56) / (1279 - 1024))) 0 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__figure {
+    padding: 56px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__figure {
+    padding: calc(40px + ((100vw - 320px) * (56 - 40) / (767 - 320))) 0 0;
+  }
+}

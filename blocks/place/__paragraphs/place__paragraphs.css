@@ -1,0 +1,30 @@
+.place__paragraphs {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  gap: 26px;
+  line-height: 163%;
+  margin: 0;
+  max-width: 100%;
+  padding: 0;
+  text-align: left;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraphs {
+  font-size: calc(16px + ((100vw - 768px) * (18 - 16) / (1023 - 768)));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraphs {
+    font-size: 16px;
+    line-height: 26px;
+    gap: 25px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: calc(100vw - (32px + 2 * ((100vw - 320px) * (24 - 16) / (767 - 320))));
+  }
+}

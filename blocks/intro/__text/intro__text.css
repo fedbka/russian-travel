@@ -1,0 +1,10 @@
+.intro__text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+  max-width: 690px;
+  padding: 39px 0 0;
+  text-align: left;
+}

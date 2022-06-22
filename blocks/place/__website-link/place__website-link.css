@@ -1,0 +1,18 @@
+.place__website-link {
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0;
+  max-width: 456px;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  transition: opacity 0.1s linear;
+}
+
+.place__website-link:hover {
+  opacity: 0.7;
+}

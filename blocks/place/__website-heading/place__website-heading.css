@@ -1,0 +1,14 @@
+.place__website-heading {
+  display: flex;
+  color: #aaa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 12px;
+  margin: 0;
+  max-width: 456px;
+  padding: 0;
+  text-align: left;
+  
+}
