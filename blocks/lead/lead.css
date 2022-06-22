@@ -18,17 +18,3 @@
     width: 100%;
   }
 }
-
-@media screen and (max-width: 928px) {
-  .lead {
-    max-width: 928px;
-    padding: 48px 0 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .lead {
-    padding: 48px 0 0;
-    width: 100%;
-  }
-}
