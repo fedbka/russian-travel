@@ -1,14 +1,15 @@
 .cover__title {
-  margin: 0 auto;
-  padding: 245px 0 0;
+  color: white;
   font-size: 72px;
-  font-weight: 900;
   font-style: normal;
+  font-weight: 900;
   line-height: 76px;
-  text-align: center;
+  margin: 0 auto;
   max-width: 560px;
+  padding: 245px 0 0;
+  text-align: center;
   width: 100%;
-  z-index: 2;
+  z-index: 6;
 }
 
 @media screen and (max-width: 1279px) {
@@ -25,8 +26,8 @@
 
 @media screen and (max-width: 767px) {
   .cover__title {
-    padding: calc(33px + ((100vw - 320px) * (113 - 33) / (767 - 320))) 0 0;
     font-size: calc(32px + ((100vw - 320px) * (72 - 32) / (767 - 320)));
     line-height: calc(35px + ((100vw - 320px) * (76 - 35) / (767 - 320)));
+    padding: calc(33px + ((100vw - 320px) * (113 - 33) / (767 - 320))) 0 0;
   }
 }

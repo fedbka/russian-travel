@@ -17,9 +17,7 @@
 
 @media screen and (max-width: 1023px) {
   .header {
-    width: calc(
-      100vw - (48px + 2 * ((100vw - 768px) * (48 - 24) / (1023 - 768)))
-    );
+    width: calc(100vw - (48px + 2 * ((100vw - 768px) * (48 - 24) / (1023 - 768))));
   }
 }
 
@@ -27,8 +25,6 @@
   .header {
     min-height: calc(42px + ((100vw - 320px) * (52 - 42) / (767 - 320)));
     padding-top: calc(16px + ((100vw - 320px) * (28 - 16) / (767 - 320)));
-    width: calc(
-      100vw - (32px + 2 * ((100vw - 320px) * (24 - 16) / (767 - 320)))
-    );
+    width: calc(100vw - (32px + 2 * ((100vw - 320px) * (24 - 16) / (767 - 320))));
   }
 }

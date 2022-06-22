@@ -4,10 +4,10 @@
   font-weight: 900;
   line-height: 58px;
   margin: 0;
-  padding: 0;
-  text-align: left;
   max-width: 690px;
   min-height: 58px;
+  padding: 0;
+  text-align: left;
 }
 
 @media screen and (max-width: 767px) {

@@ -39,20 +39,3 @@
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
-/* .places,
-.intro,
-.lead,
-.photo-grid,
-.place,
-.place__title,
-.place__website,
-.place__image,
-.place__paragraphs,
-.cover {
-  display: none;
-}
- */
-/* .header,
-.footer {
-  outline: auto;
-} */
